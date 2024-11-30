@@ -1,0 +1,202 @@
+.head-3 {
+    padding-top: 3rem;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+.flex-1 {
+    margin: 3rem 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.items {
+    background-color: #C7253E;
+    height: 5rem;
+    width: 10rem;
+}
+
+.flex-2 {
+    margin: 3rem;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.item1 {    
+    background-color: rgb(232, 92, 13);
+    height: 5rem;
+    flex: 1;
+}
+.item2 {
+    background-color: rgb(199, 37, 62);
+    height: 5rem;
+    flex: 2;
+}
+.item3 {
+    background-color: rgb(130, 17, 49);
+    height: 5rem;
+    flex: 3;
+}
+.item4 {
+    
+    background-color: rgb(232, 92, 13);
+    height: 5rem;
+    flex: 4;}
+
+
+.flex-3 {
+    margin: 3rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row-reverse;
+}
+
+.item13 {    
+    background-color: rgb(130, 17, 49);
+    height: 5rem;
+    flex: 1;
+}
+.item23 {
+    background-color: rgb(232, 92, 13);
+    height: 5rem;
+    flex: 2;
+}
+.item33 {
+    background-color: rgb(199, 37, 62);
+    height: 5rem;
+    flex: 3;
+}
+.item43 {   
+    background-color: rgb(130, 17, 49);
+    height: 5rem;
+    flex: 4;
+}
+
+.back-color {
+    background-color: white;
+    padding: 0.5rem;   
+}
+.box-1 {
+    display: flex;
+    margin: 0.5rem;
+    gap: 1rem;    
+}
+
+.area-1 {
+    flex: 3;
+    background-color: rgb(130, 17, 49);
+    height: 20rem;
+}
+
+.area-2{
+    flex: 1;
+    background-color: rgb(199, 37, 62);
+    height: 20rem;
+}    
+
+.box-2 {
+    display: flex;
+    margin: 0.5rem;
+    gap: 1rem;
+}
+
+.area-3 {
+    width: 50%;
+    background-color: rgb(232, 92, 13);
+    height: 50rem;
+}
+
+.box-3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 0;
+    justify-content: right;
+    
+}
+
+.area-4 {
+    width: 65rem;
+    background-color: rgb(250, 188, 63);
+    height: 24.5rem; 
+    margin-bottom: 0.5rem;   
+}
+
+.area-5 {
+    width: 65rem;
+    background-color: rgb(130, 17, 49);
+    height: 24.5rem; 
+    margin: 0.5rem 0;   
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    margin: 0.5rem;
+    gap: 0.5rem;
+}
+
+.g1 {
+    background-color: rgb(130, 17, 49);
+    width: 100%;
+    height: 20rem;
+    
+}
+
+.g2 {
+    background-color: rgb(232, 92, 13);
+    width: 100%;
+    height: 20rem;
+    gap: 0.5rem;
+}
+
+.box-grid-1 {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: 75% 25%;
+    
+}
+.g3 {
+    background-color:white;
+    width: 100%;
+    height: 50rem;
+    gap: 0.5rem;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: 45% 55%;
+    
+}
+
+.g3:nth-child(3) {
+    grid-column: 1 / 3;
+}
+
+.g4 {
+    background-color: rgb(199, 37, 62);
+    width: 100%;
+    height: 50rem;  
+    grid-row: 1 / 3;    
+}
+
+
+.g5 {    
+    background-color: rgb(250, 188, 63);
+    width: 99.5%;
+    height: 24.5rem;
+        
+}
+
+.g6 {
+    background-color: rgb(130, 17, 49);
+    width: 99.5%;
+    height: 24.75rem;      
+}
+
+.g6 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+

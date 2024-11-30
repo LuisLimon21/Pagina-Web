@@ -1,0 +1,139 @@
+:root {
+    --gris: #FABC3F;
+    --navy: #E85C0D;
+    --azul: #C7253E;
+    --amaillo:#821131;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  html {
+    font-size: 62.5%;
+
+  }
+
+  h1,h2,h3 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .head-1{
+    color:white;
+    font-size: 3.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .head-2 {
+    padding: 3rem 0 1.5rem 0;
+    color: var(--navy);
+    font-size: 2.75rem;
+  }
+
+  .header{
+    background-color: var(--navy);
+    width: 120rem;
+    margin: 3rem auto 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 3rem;
+  }
+
+  .contenedor{
+    background-color: var(--gris);
+    width: 120rem;    
+    height: auto;
+    padding-bottom: 7.5rem;
+    margin: 3rem auto;
+  }
+
+  fieldset {
+    margin: 0 auto;
+    background-color: var(--amaillo);
+    width: 80rem;
+    border: none; 
+    padding: 0 3.5rem;
+    padding-bottom: 3rem;   
+  }
+
+  legend {
+    font-size: 1.75rem;
+    background-color: var(--gris);
+    padding: 0.5rem 1.75rem;
+    text-align: right;
+    text-transform: uppercase;
+    color: var(--azul);
+    font-weight: 600;
+  }
+
+  .input-data {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1.75rem;
+  }
+
+  .datos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  label {
+    display: inline-block;
+    color: var(--azul);
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .contenedor-boton {
+    width: 80rem;
+    margin: 3rem auto;
+    text-align: right;
+  }
+
+  .boton{
+    background-color: var(--navy);
+    color: var(--gris);
+    text-transform: uppercase;
+    padding: 1.5rem 2rem;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;   
+  }
+
+  .boton:hover {
+    cursor: pointer;
+    background-color: var(--amaillo);
+    color:var(--navy);
+  }
+
+  .temp {
+    width: 15%;
+  }
+
+  .datos-temp{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.25rem;
+    align-items:last baseline;
+  }
+
+  .resultado {
+    margin: 3rem auto 0 auto;
+    background-color: black;
+    width: 50%;
+
+  }
+
+  .head-3 {
+    text-align: center;
+  }

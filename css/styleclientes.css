@@ -1,0 +1,140 @@
+body {
+    font-size: 62.5%;
+}
+.encabezado-java {
+    background-color: #821131;
+    width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;    
+}
+
+.contenedor {
+    background-color: #821131;
+    width: 120rem;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 0;
+    padding-bottom: 5rem;
+}
+
+.headclientes-3{
+    margin-top: 0;
+    color: #E85C0D;
+    padding-top: 3rem;
+    font-size: 2.75rem;
+}
+
+.contacto {
+    background-color: #821131;
+    width: 60rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.direccion {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.location-cont {
+    margin: 0 3rem;
+    width: 10%;
+}
+
+.location-cont img{
+    width: 100%;
+}
+
+
+.cel-cont {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.cel {
+    margin: 0 3rem;
+    width: 10%;
+}
+
+.cel img{
+    width: 100%;
+}
+
+.email-cont {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.email {
+    margin: 0 3rem;
+    width: 10%;
+}
+
+.email img{
+    width: 100%;
+}
+
+.p-contacto {
+    color:white;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.embed-map {
+    width: 66rem; 
+    height: 48rem;
+    margin: 0 auto;    
+}
+
+.boton {
+    color: white;
+    background-color: #C7253E;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 15rem;
+    text-align: center;
+    padding: 1rem 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.boton:hover {
+    background-color: #E85C0D;
+}
+
+.alinear-boton {
+    width: 66rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 1.75rem;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #E85C0D;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+  }

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 Página Web Personal Completa</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="./img/picture.jpg">
+    <style>
+        .respuesta {
+            width: 80%; 
+            margin: 5px auto;
+            padding: 1px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .respuesta.exito {
+            background-color: #28a745; /* Verde para éxito */
+            color: white;
+        }
+
+        .respuesta.error {
+            background-color: #dc3545; /* Rojo para error */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+ <h1>Luis Antonio Hernández Limón <span>Computer Engineer</span></h1>
+<div class="cont-enlaces">
+    <div class="enlaces">
+        <a href="#">Inicio</a>
+        <a href="./sobremi.html">Sobre mi</a>
+        <a href="./clientes.php">Clientes</a>
+        <a href="./contacto.html">Contacto</a>
+     </div>
+</div>
+
+
+ <div class="background-image">
+    <div class="background-color">
+        <h2 class="profesion">Computer Engineer</h2>
+        <div class="location">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="84" height="84" viewBox="0 0 24 24" stroke-width="1.5" stroke=white fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+            </svg>
+            <p>Zapopan, Jalisco, México</p>
+        </div>
+        <a class="boton" href="#">contactar</a>
+    </div>
+ </div>
+ <main class="contenedor sombra">
+    <h2 class="profesion">Mis Aportes</h2>
+
+    <div class="servicios">
+        <section class="servicio">
+            <h3>Java Script</h3>
+            <div class="iconos">
+            <a href="java.html" class="a-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-javascript" width="84" height="84" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FB2576" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                    <path d="M7.5 8h3v8l-2 -1" />
+                    <path d="M16.5 8h-2.5a.5 .5 0 0 0 -.5 .5v3a.5 .5 0 0 0 .5 .5h1.423a.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5" />
+                  </svg>
+            </a>
+            </div>
+            <p> JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, 
+                imperativo, débilmente tipado y dinámico.</p>
+        </section>
+    
+        <section class="servicio">
+            <h3>Formatos CSS</h3>
+            <div class="iconos">
+
+                <a class="a-icon" href="./formatoscss.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-css3" width="84" height="84" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FB2576" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                        <path d="M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
+                      </svg>    
+                      
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-list" width="84" height="84" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FB2576" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 6l11 0" />
+                        <path d="M9 12l11 0" />
+                        <path d="M9 18l11 0" />
+                        <path d="M5 6l0 .01" />
+                        <path d="M5 12l0 .01" />
+                        <path d="M5 18l0 .01" />
+                      </svg>
+
+                </a>
+ 
+            </div>
+            <p>CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. </p>
+        </section>
+
+        <section class="servicio">
+            <h3>Flexbox and Grid</h3>
+            <div class="iconos">
+                <a href="flexgrid.html" class="a-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-template" width="84" height="84" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FB2576" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
+                        <path d="M4 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+                        <path d="M14 12l6 0" />
+                        <path d="M14 16l6 0" />
+                        <path d="M14 20l6 0" />
+                      </svg>
+                </a>
+            </div>
+            <p> Cuadrícula y flexbox. La diferencia básica entre el diseño de cuadrícula CSS y el diseño de CSS flexbox es que flexbox fue diseñado para el diseño en una dimensión, ya sea una fila o una columna. Grid fue diseñado para un diseño bidimensional: filas y columnas simultáneamente.</p>
+        </section>
+    </div> <!--.servicios-->
+
+    <section>
+
+        <h2 class="profesion">Contacto</h2>
+
+        <form id="registroFormulario" class="formulario" method="post">
+            <fieldset>
+                <legend>Contactános llenando todos los campos</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input  id="nombre" name="nombre" class="input-text" type="text" placeholder="Tu Nombre" required>
+                    </div>
+
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input  id="tel" name="tel" class="input-text" type="tel" placeholder="Tu Teléfono" required>
+                    </div>
+
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input  id="correo" name="correo" class="input-text" type="email" placeholder="Tu Email" required>
+                    </div>
+            
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea  id="mensaje" name="mensaje" class="input-text text-area" required></textarea>
+                    </div>
+                </div> <!-- .contenedor-campos -->
+                
+                
+                <div class="alinear-derecha flex">
+                    <input class="boton" type="submit" value="Enviar">
+                    <div id="respuesta" class="respuesta"></div>  
+                </div>
+            </fieldset>
+            
+        </form>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>Todos los derechos reservados - Luis Limón<span>©</span></p>
+</footer>
+
+</body>
+</html>
+
+<script>
+    document.getElementById('registroFormulario').addEventListener('submit', function(event) {
+        event.preventDefault(); // Evita la recarga de la página
+
+        const formData = new FormData(this); // Obtén los datos del formulario
+        const respuestaDiv = document.getElementById('respuesta');
+
+        // Limpia cualquier mensaje anterior
+        respuestaDiv.classList.remove('exito', 'error');
+        respuestaDiv.innerHTML = ''; 
+
+        fetch('./php/registrar.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.text())
+        .then(data => {
+            // Dependiendo de la respuesta, asignamos la clase adecuada
+            if (data.includes('exitoso')) {
+                // Si el registro es exitoso, limpiamos los campos
+                document.getElementById('registroFormulario').reset();
+
+                // Añadimos la clase de éxito y mostramos el mensaje
+                respuestaDiv.classList.add('exito');
+            } else {
+                respuestaDiv.classList.add('error');
+            }
+
+            respuestaDiv.innerHTML = `<p>${data}</p>`; // Muestra el mensaje en el contenedor
+        })
+        .catch(error => {
+            respuestaDiv.classList.add('error');
+            respuestaDiv.innerHTML = `<p>Error al enviar el formulario: ${error}</p>`;
+        });
+    });
+</script>
